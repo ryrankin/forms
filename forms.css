@@ -12,8 +12,21 @@ body {
 }
 
 .signup {
+	background: white;
 	margin: 0 auto;
 	width: 400px;
 	padding: 40px;
-	
+	border-radius: 3px;
+}
+
+.signup legend {
+	margin: 0 auto 45px;
+	text-align: center;
+	font-weight: 300;
+	letter-spacing: 0;
+	font-size: 30px;
+	color: #565656;
+	line-height: 38px;
+
+
 }
