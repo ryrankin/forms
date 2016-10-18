@@ -27,6 +27,32 @@ body {
 	font-size: 30px;
 	color: #565656;
 	line-height: 38px;
-
-
 }
+
+.signup a {
+	color: #999;
+	border-bottom: 1px solid #bbb;
+}
+
+.signup a:hover {
+	border-color: #999;
+	color: #777;
+}
+
+.footer {
+	text-align: center;
+	color: font-weight: 500px;
+	margin: 20px auto;
+	color: white;
+}
+
+.footer a {
+	color: white;
+}
+
+.footer a:hover { color: #E7f1f9;
+ }
+
+ .footer p {
+ 	margin-bottom: 40px;
+ }
