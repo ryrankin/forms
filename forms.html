@@ -5,6 +5,24 @@
 	<link rel="stylesheet" type="text/css" href="/Users/ryrankin/desktop/projects/forms/forms.css">
 </head>
 <body>
+<img class="logo" src="logo.png">
+
 <main>
-	<header class="container">
-		<form class="signup">
+	<form class="signup" action="/signup/" method='post'>
+
+		<legend> Sign up</legend>
+		<label for="user-email">Email</label>
+		<input type="email" placeholder="fluff@bar.com" name="user-email" id="user-email"/>
+
+		<label for="user-password">Password</label>
+		<input type="password" placeholder="1-2-3-4-5" name="user-password" id="user-password"/>
+
+		<p><a href="/forgot-password/new">Forgot Password?</a></p>
+	</form>
+
+		<div class="footer">
+			<p>Already have an account?<a href="/login">Log in</a></p>
+		</div>
+</main>
+</body>
+</html>
