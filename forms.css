@@ -53,6 +53,50 @@ body {
 .footer a:hover { color: #E7f1f9;
  }
 
- .footer p {
+.footer p {
  	margin-bottom: 40px;
  }
+
+/*----------------------------------*/
+
+
+input[type='email'],
+input[type='password'],
+button[type='submit'] {
+    background: #fcfcfc;
+    border: 2px solid #e7e7e7;
+    margin: 20px auto;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: opacity 0.4s;
+    text-align: left;
+    height: auto;
+}
+
+input[type='email']:focus,
+input[type='password']:focus,
+button[type='submit']:focus {
+    border-color: #E7E7E7;
+    box-shadow: none;
+}
+
+button[type='submit'] {
+    color: white;
+    background: #15CD72;
+    border: 0;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    height: auto;
+}
+
+button:hover[type='submit'] {
+    background-color: #0CB863;
+    -webkit-transition: background 0.1s;
+    -moz-transition: background 0.1s;
+    -o-transition: background 0.1s;
+    transition: background 0.1s;
